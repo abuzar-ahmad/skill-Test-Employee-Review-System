@@ -1,0 +1,103 @@
+
+/* It is the main container */
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    height: 50vh;
+    width: 40vw;
+}
+/* The main container is divided into two part */
+
+
+.formInput{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:white;
+    height: 100%;
+    width: 60%;
+    border: 2px solid black;
+}
+
+.heading {
+    padding-top: 20px;
+    font-size: 20px;
+}
+/* Form heading */
+.formInput h1{
+    margin-left: 10%;
+    color:black;
+}
+
+.formInput form{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+form input{
+    width: 90%;
+    height: 35px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    background: #d68f8f;
+}
+/* Styling for the button, and submit button */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+.submitButtons{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.submitButtons button{
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.submitButtons button:hover {
+    background: red;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons a:hover {
+    color: red;
+}
+
+.extraStuff{
+    margin-top: 20px;
+}
+
+.extraStuff a {
+    text-decoration: none;
+    color: red;
+}
+
+.sign-up {
+    padding-right: 20px;
+}
+
+.submit_Buttons button{
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.submit_Buttons button:hover {
+    background: red;
+}

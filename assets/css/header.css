@@ -1,0 +1,86 @@
+/* The below css is for header of the page, the header of the page is going to remain constant, only
+ the body is going to chagne.
+  */
+
+  /* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to 
+  in row wise */
+  .navBar{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+/* These styling are for anchor tag in navBar */
+.nameOfApp a{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(232, 16, 16);
+    font-weight: 600;
+}
+/* for the name of users */
+.nameOfUser{
+    font-size: 20px;
+    margin-left:2px;
+    margin-right:8px;
+    margin-top:8px;
+    color:white;
+    font-weight:bold;
+
+}
+.nameOfUser img{
+    height:30px;
+    width:30px;
+    padding:5px;
+    margin-right:8px;
+    color: gray;
+   
+}
+
+/* Thesse styling are for logOut, button which is present on the navBar */
+.logOut a{
+    font-size: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.noUser ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.noUser li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top:10px;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+.noUser li a{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    margin-bottom: 15px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.logOut small{
+    font-size: 15px;
+    color:red;
+    padding:5px 10px 8px 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: white;
+}
+.logOut small:hover{
+   
+    color:red;
+    
+}
